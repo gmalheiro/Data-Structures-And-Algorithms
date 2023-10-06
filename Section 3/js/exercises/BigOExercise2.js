@@ -19,5 +19,6 @@ function anotherFunChallenge(input) {
     // 4 0(1) + 7 O(n)
     // 4 + n + n + n + n + n + n + n
     // 4 + 7n
+    // If you don't count the for loops it would be 4 + 5n
     // Big O notation is O(4 + 5n) or simplifying O(n)
   }
