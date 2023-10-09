@@ -27,4 +27,6 @@ def bCompressBoxesTwice(boxes,boxes2):
     O(n + n) 
     O(n + a)
     AND THERE IT GOES
+
+    If the loops were nested inside each other it would be O(a*b)
 '''

@@ -35,4 +35,6 @@ function bCompressBoxesTwice (boxes, boxes2){
 
     So the big O notation of the example b would be:
     O(a + b)
+
+    If the for loops were nested the Big O would be: O(a*b)
 */
