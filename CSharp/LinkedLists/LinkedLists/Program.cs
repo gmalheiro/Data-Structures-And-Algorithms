@@ -37,7 +37,7 @@
             var runner = Head;
             while (runner != null)
             {
-                Console.WriteLine(runner.Data);
+                Console.Write($" [{runner.Data}] -> ");
                 runner = runner.Next;
             }
         }
@@ -55,7 +55,7 @@
             linkedList.AddNode(5);
             linkedList.AddNode(6);
             linkedList.AddNode(7);
-            linkedList.AddNode(8);
+            linkedList.AddNode(8); //O último é o head
 
             linkedList.PrintList();
         }
