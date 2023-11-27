@@ -37,7 +37,11 @@
             var runner = Head;
             while (runner != null)
             {
-                Console.Write($" [{runner.Data}] -> ");
+                Console.Write($" [{runner.Data}]");
+                if (runner.Next != null)
+                {
+                    Console.Write(" -> ");
+                }
                 runner = runner.Next;
             }
         }
