@@ -29,7 +29,7 @@
             LinkedListNode node = new LinkedListNode(data);
             node.Next = Head;
             Head = node;
-            count++;
+            //count++;
         }
 
         public void PrintList()
@@ -42,8 +42,10 @@
                 {
                     Console.Write(" -> ");
                 }
+                count++;
                 runner = runner.Next;
             }
+            //Console.WriteLine(count);
         }
     }
 
@@ -60,7 +62,6 @@
             linkedList.AddNode(6);
             linkedList.AddNode(7);
             linkedList.AddNode(8); //O último é o head
-
             linkedList.PrintList();
         }
     }
